@@ -1,0 +1,66 @@
+body {
+  min-height: 2000px;
+}
+
+/* Mobile View */
+.header {
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000vh;
+}
+
+.title-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.second-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.hand-icon {
+  width: 20px;
+}
+.button-hero {
+  width: 25vh;
+  background-image: linear-gradient(to right, #2a8fff, #ab31ff);
+}
+.arrow-icon {
+  width: 12px;
+}
+/* Desktop View */
+@media only screen and (min-width: 992px) {
+  .header {
+    background-image: url("img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .title-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .second-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .hand-icon {
+    width: 32px;
+  }
+
+  .button-hero {
+    width: 25vh;
+    background-image: linear-gradient(to right, #2a8fff, #ab31ff);
+  }
+
+  .arrow-icon {
+    width: 20px;
+  }
+}
